@@ -1,0 +1,92 @@
+#bmi {
+    padding: 15px;
+    color: white;
+}
+
+label {
+    height: auto;
+}
+
+select,
+option {
+    height: auto;
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../b2.jpg");
+    height: 80vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: white;
+    font-family: calibri;
+    font-variant-caps: petite-caps;
+}
+
+.container {
+    border: 2px solid white;
+    width: 500px;
+    margin-top: 80px;
+    margin-left: 350px;
+    border-radius: 30px;
+    height: 495px;
+}
+
+label {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.item {
+    font-size: 20px;
+    padding: 10px;
+}
+
+input,
+select {
+    width: 200px;
+    padding: 10px;
+    margin-left: 50px;
+}
+
+.button {
+    font-size: 24px;
+    width: 120px;
+    height: 50px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 15px;
+    margin-top: 25px;
+    margin-left: 220px;
+}
+
+.button:hover {
+    background-color: red;
+}
+
+.button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 2px #666;
+    transform: translateY(1px);
+}
+
+h1 {
+    text-align: center;
+}
+
+#bmi {
+    font-size: 20px;
+    text-align: center;
+    margin-left: 220px;
+}
+
+#val1 {
+    font-size: 20px;
+    text-align: center;
+    margin-left: 220px;
+}
